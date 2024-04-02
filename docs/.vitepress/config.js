@@ -39,8 +39,8 @@ export default {
       ],
       "/cssSecrets/": [
         {
-          text: "第一章",
-          link: "/cssSecrets/第一章",
+          text: "背景与边框",
+          link: "/cssSecrets/背景与边框",
         },
       ],
     },
