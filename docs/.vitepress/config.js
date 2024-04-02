@@ -13,7 +13,7 @@ export default {
     nav: [
       { text: "Guide", link: "/guide/" },
       { text: "博客", link: "/blog/" },
-      { text: "css揭秘", link: "/cssSecrets/" },
+      { text: "css技巧", link: "/cssSecrets/" },
       // { text: "gitee", link: "https://gitee.com/geeksdidi" },
     ],
     sidebar: {
@@ -41,6 +41,10 @@ export default {
         {
           text: "背景与边框",
           link: "/cssSecrets/背景与边框",
+        },
+        {
+          text: "形状",
+          link: "/cssSecrets/形状",
         },
       ],
     },

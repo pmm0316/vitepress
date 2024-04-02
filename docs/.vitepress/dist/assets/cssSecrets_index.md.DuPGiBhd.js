@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./chunks/framework.Bu1aCCDc.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"cssSecrets/index.md","filePath":"cssSecrets/index.md"}'),c={name:"cssSecrets/index.md"};function r(a,n,o,d,i,p){return s(),t("div")}const f=e(c,[["render",r]]);export{m as __pageData,f as default};
