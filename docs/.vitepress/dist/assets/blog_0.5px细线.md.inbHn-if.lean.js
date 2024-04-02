@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.Bu1aCCDc.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/0.5px细线.md","filePath":"blog/0.5px细线.md"}'),l={name:"blog/0.5px细线.md"},e=n("",4),h=[e];function p(t,k,r,d,c,g){return a(),i("div",null,h)}const b=s(l,[["render",p]]);export{y as __pageData,b as default};
