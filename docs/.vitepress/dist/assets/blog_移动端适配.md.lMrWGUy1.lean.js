@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.D_TNM4eP.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/移动端适配.md","filePath":"blog/移动端适配.md"}'),l={name:"blog/移动端适配.md"},p=n("",2),t=[p];function h(e,k,r,d,g,c){return a(),i("div",null,t)}const D=s(l,[["render",h]]);export{A as __pageData,D as default};
