@@ -36,6 +36,10 @@ export default {
           //   },
           // ],
         },
+        {
+          text: "图表",
+          link: "/blog/图表",
+        },
       ],
       "/cssSecrets/": [
         {
