@@ -1,17 +1,17 @@
 {
-	"scripts": {
-		"dev": "vitepress dev docs",
-		"build": "vitepress build docs",
-		"docs:serve": "vitepress serve docs",
-		"docs:preview": "vitepress preview docs --port 8080"
-	},
-	"devDependencies": {
-		"vitepress": "^1.0.1"
-	},
-	"dependencies": {
-		"@vitepress-demo-preview/component": "^2.3.2",
-		"@vitepress-demo-preview/plugin": "^1.2.3",
-		"echarts": "^5.5.0",
-		"markdown-it": "^14.1.0"
-	}
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "docs:preview": "vitepress preview docs --port 8080"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.1"
+  },
+  "dependencies": {
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.2.3",
+    "echarts": "^5.5.0",
+    "markdown-it": "^14.1.0"
+  }
 }

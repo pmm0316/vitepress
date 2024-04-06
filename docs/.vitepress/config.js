@@ -37,6 +37,10 @@ export default {
           // ],
         },
         {
+          text: "vue3特性",
+          link: "/blog/vue3Feat",
+        },
+        {
           text: "图表",
           link: "/blog/图表",
         },
