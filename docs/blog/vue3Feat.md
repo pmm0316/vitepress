@@ -34,14 +34,22 @@ let value = ref();
 </template>
 ```
 
-## 2. defineProps
+## 2. defineProps defineEmits
 
-defineProps 接收父组件传值
+defineProps 接收父组件传值，defineEmits 触发方法
 
 ```vue
 <script setup lang="ts">
 defineProps<{
   title?: string;
 }>();
+const emit = defineEmits<{
+  (e: "change", title: string): void;
+  (e: "update", value: string): void;
+}>();
+const handleChange = () => {
+  // 触发方法，改变父组件传入的值
+  emit("change", "newTitle");
+};
 </script>
 ```

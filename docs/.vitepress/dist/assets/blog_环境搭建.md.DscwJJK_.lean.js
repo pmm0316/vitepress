@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a3 as e}from"./chunks/framework.Bu1aCCDc.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/环境搭建.md","filePath":"blog/环境搭建.md"}'),t={name:"blog/环境搭建.md"},n=e("",1),l=[n];function p(r,h,o,k,d,c){return a(),i("div",null,l)}const g=s(t,[["render",p]]);export{u as __pageData,g as default};

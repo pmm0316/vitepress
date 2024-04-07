@@ -11,7 +11,6 @@ export default {
   themeConfig: {
     // theme-level options
     nav: [
-      { text: "Guide", link: "/guide/" },
       { text: "博客", link: "/blog/" },
       { text: "css技巧", link: "/cssSecrets/" },
       // { text: "gitee", link: "https://gitee.com/geeksdidi" },
@@ -43,6 +42,10 @@ export default {
         {
           text: "图表",
           link: "/blog/图表",
+        },
+        {
+          text: "实用网站",
+          link: "/blog/实用网站",
         },
       ],
       "/cssSecrets/": [
