@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a3 as n}from"./chunks/framework.Bu1aCCDc.js";const o=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/vue3Feat.md","filePath":"blog/vue3Feat.md"}'),h={name:"blog/vue3Feat.md"},l=n("",27),p=[l];function k(t,e,r,d,g,y){return a(),i("div",null,p)}const D=s(h,[["render",k]]);export{o as __pageData,D as default};

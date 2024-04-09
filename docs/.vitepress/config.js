@@ -22,12 +22,8 @@ export default {
           link: "/blog/环境搭建",
         },
         {
-          text: "0.5px细线",
-          link: "/blog/0.5px细线",
-        },
-        {
-          text: "移动端适配",
-          link: "/blog/移动端适配",
+          text: "移动端H5",
+          link: "/blog/移动端H5",
           // items: [
           //   {
           //     text: "0.5px细线",
@@ -36,16 +32,16 @@ export default {
           // ],
         },
         {
-          text: "vue3特性",
-          link: "/blog/vue3Feat",
-        },
-        {
           text: "图表",
           link: "/blog/图表",
         },
         {
           text: "实用网站",
           link: "/blog/实用网站",
+        },
+        {
+          text: "vue3特性",
+          link: "/blog/vue3Feat",
         },
       ],
       "/cssSecrets/": [
