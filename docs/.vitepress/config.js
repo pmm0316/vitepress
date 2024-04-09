@@ -13,6 +13,7 @@ export default {
     nav: [
       { text: "博客", link: "/blog/" },
       { text: "css技巧", link: "/cssSecrets/" },
+      { text: "组件", link: "/components/" },
       // { text: "gitee", link: "https://gitee.com/geeksdidi" },
     ],
     sidebar: {
@@ -42,6 +43,12 @@ export default {
         {
           text: "vue3特性",
           link: "/blog/vue3Feat",
+        },
+      ],
+      "/components/": [
+        {
+          text: "模态框",
+          link: "/components/modal",
         },
       ],
       "/cssSecrets/": [
