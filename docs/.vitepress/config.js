@@ -44,6 +44,10 @@ export default {
           text: "javascript",
           link: "/blog/javascript",
         },
+        {
+          text: "设计模式",
+          link: "/blog/设计模式",
+        },
       ],
       "/components/": [
         {
