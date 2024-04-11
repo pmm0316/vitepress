@@ -33,10 +33,6 @@ export default {
           // ],
         },
         {
-          text: "图表",
-          link: "/blog/图表",
-        },
-        {
           text: "实用网站",
           link: "/blog/实用网站",
         },
@@ -49,6 +45,10 @@ export default {
         {
           text: "模态框",
           link: "/components/modal",
+        },
+        {
+          text: "图表",
+          link: "/components/chart",
         },
       ],
       "/cssSecrets/": [

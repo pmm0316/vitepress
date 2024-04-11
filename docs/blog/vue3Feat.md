@@ -105,11 +105,25 @@ const person = reactive({ name: "Tom" });
 </script>
 ```
 
-```js
+## 5. toRef 和 toRefs
 
+<span style="color: #42b883;">toRefs()<strong></strong></span>将一个响应式对象转换为一个普通对象，这个普通对象的每个属性都是指向源对象相应属性的 ref。每个单独的 ref 都是使用 <span style="color: #42b883;">toRef()<strong></strong></span> 创建的。
+
+```vue
+<!-- toRef、toRefs使用场景 -->
+
+<script>
+import { defineProps, toRefs } from "vue";
+
+const props = defineProps(["title", "name"]);
+//  解构出来的数据，也具有响应式
+const { title, name } = toRefs(props);
+// 使用toRef，转成ref响应式数据
+const title2 = toRef(props.title);
+</script>
 ```
 
-## 5. 自定义 hooks
+## 6. 自定义 hooks
 
 在 hooks 目录定义 mouse.js 的 hook
 
@@ -152,7 +166,7 @@ console.log("x, y", x, y);
 <style scoped></style>
 ```
 
-## 6. Teleport 内置组件
+## 7. Teleport 内置组件
 
 Teleport 是一个内置组件，它可以将一个组件内部的一部分模板“传送”到该组件的 DOM 结构外层的位置去。<br>
 使用场景：封装自己 modal<br>
