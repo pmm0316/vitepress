@@ -40,6 +40,10 @@ export default {
           text: "vue3特性",
           link: "/blog/vue3Feat",
         },
+        {
+          text: "javascript",
+          link: "/blog/javascript",
+        },
       ],
       "/components/": [
         {
@@ -50,6 +54,10 @@ export default {
           text: "图表",
           link: "/components/chart",
         },
+        {
+          text: "其他",
+          link: "/components/other",
+        },
       ],
       "/cssSecrets/": [
         {
@@ -59,6 +67,10 @@ export default {
         {
           text: "形状",
           link: "/cssSecrets/形状",
+        },
+        {
+          text: "其他",
+          link: "/cssSecrets/其他",
         },
       ],
     },

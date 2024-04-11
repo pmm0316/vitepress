@@ -13,9 +13,9 @@
 | 属性       | 说明         | 类型             | 默认值 |
 | ---------- | ------------ | ---------------- | ------ |
 | open       | 打开         | boolean          | false  |
-| title      | 标题         | string           | '-'    |
-| okText     | 确认按钮文字 | string           | '确认' |
-| cancelText | 取消按钮文字 | string           | '取消' |
+| title      | 标题         | string           | -      |
+| okText     | 确认按钮文字 | string           | 确认   |
+| cancelText | 取消按钮文字 | string           | 取消   |
 | width      | 宽度         | string \| number | 416    |
 
 ### 事件

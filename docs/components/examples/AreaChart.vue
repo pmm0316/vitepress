@@ -63,6 +63,7 @@ const option = {
         color: "#8decfd",
       },
       areaStyle: {
+        // 区域填充样式，设置后显示成区域面积图
         color: {
           type: "linear",
           x: 0,
