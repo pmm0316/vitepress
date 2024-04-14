@@ -1,1 +1,0 @@
-import{av as s,p as i,m as a,aP as n}from"./chunks/framework.DkMe7-7d.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/设计模式.md","filePath":"blog/设计模式.md"}'),p={name:"blog/设计模式.md"},l=n("",4),t=[l];function e(h,k,r,d,c,o){return a(),i("div",null,t)}const u=s(p,[["render",e]]);export{y as __pageData,u as default};
