@@ -41,6 +41,10 @@ export default {
           link: "/blog/vue3Feat",
         },
         {
+          text: "react特性",
+          link: "/blog/reactFeat",
+        },
+        {
           text: "javascript",
           link: "/blog/javascript",
         },
