@@ -170,4 +170,5 @@ console.log("x, y", x, y);
 
 Teleport 是一个内置组件，它可以将一个组件内部的一部分模板“传送”到该组件的 DOM 结构外层的位置去。<br>
 使用场景：封装自己 modal<br>
-[示例](/components/modal.html)
+react 中也有相似的方式实现，详细请看[createPortal](/blog/reactFeat.html#_4-createportal)<br>
+[Teleport 组件示例](/components/modal.html)

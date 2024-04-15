@@ -59,7 +59,7 @@ export default {
           link: "/components/modal",
         },
         {
-          text: "图表",
+          text: "可视化图表",
           link: "/components/chart",
         },
         {

@@ -89,3 +89,18 @@ const result = useMemo(() => {
 ```
 
 使用场景跟 vue 的 computed 计算属性使用场景一样。
+
+## 4. createPortal
+
+createPortal 允许你将 JSX 作为 children 渲染至 DOM 的不同部分。
+
+```jsx
+import { createPortal } from "react-dom";
+
+// ...
+
+<div>
+  <p>这个子节点被放置在父节点 div 中。</p>
+  {createPortal(<p>这个子节点被放置在 document body 中。</p>, document.body)}
+</div>;
+```
