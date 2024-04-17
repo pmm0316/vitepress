@@ -5,7 +5,7 @@ import {
 } from "@vitepress-demo-preview/plugin";
 export default {
   // site-level options
-  base: '/vitepress/',
+  base: "/vitepress/",
   title: "明明不在",
   description: "在线文档",
   themeConfig: {
@@ -75,6 +75,10 @@ export default {
         {
           text: "形状",
           link: "/cssSecrets/形状",
+        },
+        {
+          text: "动画",
+          link: "/cssSecrets/动画",
         },
         {
           text: "其他",
