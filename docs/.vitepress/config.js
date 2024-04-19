@@ -45,7 +45,7 @@ export default {
           link: "/blog/reactFeat",
         },
         {
-          text: "javascript",
+          text: "JavaScript",
           link: "/blog/javascript",
         },
         {
