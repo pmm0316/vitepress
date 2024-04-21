@@ -1,0 +1,1 @@
+import{av as s,p as i,m as a,aP as n}from"./chunks/framework.DkMe7-7d.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/移动端H5.md","filePath":"blog/移动端H5.md"}'),l={name:"blog/移动端H5.md"},h=n("",11),p=[h];function k(e,t,r,d,g,c){return a(),i("div",null,p)}const o=s(l,[["render",k]]);export{A as __pageData,o as default};
