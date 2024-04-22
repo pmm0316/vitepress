@@ -218,3 +218,30 @@ console.log(Math.pow(2, 3)); // 8
 // 简写方式
 console.log(2 ** 3); // 8
 ```
+
+## 8. JSON.stringify
+
+- 第二个参数 replacer 为数组时
+
+```javascript
+const person = {
+  name: "Tom",
+  age: 22,
+  gender: 1,
+};
+console.log(JSON.stringify(person, ["name"])); // {"name":"Tom"}
+```
+
+- 第二个参数 replacer 为函数时
+
+```javascript
+const person = {
+  name: "Tom",
+  age: 22,
+  gender: 1,
+};
+const result = JSON.stringify(person, function (key, value) {
+  return typeof value === "string" ? undefined : value;
+});
+console.log(result); // {"age":22,"gender":1}
+```
