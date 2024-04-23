@@ -245,3 +245,8 @@ const result = JSON.stringify(person, function (key, value) {
 });
 console.log(result); // {"age":22,"gender":1}
 ```
+
+## 9. 谷歌浏览器 F12-性能
+
+使用 Chrome DevTools 的 F12 进行前端页面性能测试
+<img src="../public/F12_性能.jpg"/>

@@ -7,8 +7,27 @@ const rawData = [
   [50, 20, 30, 60, 80, 40, 20],
   [20, 100, 80, 60, 90, 20, 15],
 ];
+const xData: string[] = ["5", "7", "9", "11", "13", "15", "17"];
+
+const getDataset = () => {
+  const result: any[] = [];
+  rawData.forEach((data) => {
+    const arr: Array<[string, number]> = [];
+    data.forEach((val, index) => {
+      arr.push([xData[index], val]);
+    });
+    const item = {
+      source: [["product", ...xData], ...arr],
+    };
+    result.push(item);
+  });
+  return result;
+};
+
+console.log("getDataset", getDataset());
 
 const option = {
+  dataset: getDataset(),
   grid: {
     left: 33,
     right: 20,
@@ -65,7 +84,7 @@ const option = {
         color: "#CCCCCC",
       },
     },
-    data: ["5", "7", "9", "11", "13", "15", "17"],
+    // data: xData,
   },
   tooltip: {
     // 提示框配置
@@ -90,14 +109,16 @@ const option = {
       type: "bar",
       stack: "total",
       barWidth: "50%",
-      data: rawData[1],
+      datasetIndex: 1,
+      // data: rawData[1],
     },
     {
       name: "去年",
       type: "bar",
       stack: "total",
       barWidth: "50%",
-      data: rawData[0],
+      datasetIndex: 0,
+      // data: rawData[0],
     },
   ],
 };

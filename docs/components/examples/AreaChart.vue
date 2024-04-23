@@ -3,10 +3,9 @@ import * as echarts from "echarts";
 import { ref, onMounted } from "vue";
 let chartRef: any = ref();
 let myChart: any = null;
-const rawData = [
-  [50, 20, 30, 60, 80, 40, 20],
-  [20, 100, 80, 60, 90, 20, 15],
-];
+
+const xData = ["15口", "16口", "17口", "18口", "19口", "20口", "21口"];
+const yData = [250, 750, 600, 934, 250, 400, 300];
 
 const option = {
   grid: {
@@ -40,7 +39,7 @@ const option = {
   xAxis: {
     type: "category",
     boundaryGap: false,
-    data: ["15口", "16口", "17口", "18口", "19口", "20口", "21口"],
+    data: xData,
     axisLine: {
       show: false,
     },
@@ -54,7 +53,7 @@ const option = {
   },
   series: [
     {
-      data: [250, 750, 600, 934, 250, 400, 300],
+      data: yData,
       type: "line",
       smooth: true, // 平滑的线条
       showSymbol: false, // 是否显示 symbol
