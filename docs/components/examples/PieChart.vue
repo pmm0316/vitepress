@@ -2,9 +2,10 @@
 import { ref, onMounted } from "vue";
 import * as echarts from "echarts";
 const chartRef = ref();
+let myChart = null;
 const Color = ["#5B8FF9", "#5AD8A6", "#F6BD16"];
 const option = {
-  backgroundColor: '#040b13',
+  backgroundColor: "#040b13",
   title: {
     text: "总库存量：700000",
     right: 0,
@@ -40,7 +41,7 @@ const option = {
       type: "pie",
       radius: ["40%", "67%"],
       selectedMode: "single",
-      selectedOffset: 5,
+      selectedOffset: 8,
       clockwise: true,
       itemStyle: {
         borderWidth: 0,
@@ -50,7 +51,6 @@ const option = {
         fontSize: 14,
         formatter: function (params) {
           const { dataIndex, name, value } = params;
-          console.log("params", params);
           const arr = ["a", "b", "c"];
           return `{${arr[dataIndex]}|${name}}\n {d|${value}}`;
         },
@@ -71,7 +71,7 @@ const option = {
         length: 10,
         length2: 35,
       },
-      padAngle: 5,
+      padAngle: 0,
       color: Color,
       data: [
         { value: 30000, name: "矿石" },
@@ -81,16 +81,30 @@ const option = {
     },
   ],
 };
+
+// 设置自动循环选中
+const autoSelected = () => {
+  let count = 0;
+  if (myChart) {
+    setInterval(() => {
+      myChart.dispatchAction({
+        type: "select",
+        dataIndex: count % 3,
+      });
+      count++;
+    }, 1000);
+  }
+};
 onMounted(() => {
-  const chart = echarts.init(chartRef.value, null, {
+  myChart = echarts.init(chartRef.value, null, {
     height: 200,
     width: 350,
   });
-  chart.setOption(option);
+  myChart.setOption(option);
+  autoSelected();
 });
 </script>
 <template>
   <div ref="chartRef" class="container"></div>
 </template>
-<style scoped>
-</style>
+<style scoped></style>

@@ -14,4 +14,4 @@ echarts 实现圆环图
 
 ## 4. 饼图
 
-<preview path="./examples/PieChart.vue" title="饼图" description=""></preview>
+<preview path="./examples/PieChart.vue" title="饼图" description="自动循环选中"></preview>
