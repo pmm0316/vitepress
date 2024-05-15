@@ -250,3 +250,16 @@ console.log(result); // {"age":22,"gender":1}
 
 使用 Chrome DevTools 的 F12 进行前端页面性能测试
 <img src="../public/F12_性能.jpg"/>
+
+## 10. 字符串拼接的 3 种方式
+
+```javascript
+const str1 = "hello";
+const str2 = "2024-05-13";
+// +
+console.log(str1 + " " + str2); // hello 2024-05-13
+// 模板字符串
+console.log(`${str1} ${str2}`); // hello 2024-05-13
+// concat
+console.log(str1.concat(" ", str2)); // hello 2024-05-13
+```
