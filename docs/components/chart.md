@@ -11,3 +11,7 @@ echarts 实现圆环图
 ## 3. 基础面积图
 
 <preview path="./examples/AreaChart.vue" title="基础面积图" description=""></preview>
+
+## 4. 饼图
+
+<preview path="./examples/PieChart.vue" title="饼图" description="自动循环选中"></preview>
