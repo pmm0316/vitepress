@@ -49,6 +49,10 @@ export default {
           link: "/blog/javascript",
         },
         {
+          text: "git常用技巧",
+          link: "/blog/Git",
+        },
+        {
           text: "设计模式",
           link: "/blog/设计模式",
         },
