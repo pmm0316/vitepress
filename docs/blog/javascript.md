@@ -187,6 +187,7 @@ Promise.allSettled(promises).then((results) => {
 ```javascript
 const name1 = undefined;
 const name2 = "李红";
+const name3 = '' // 空字符串
 // 传统写法：
 // const username = (name1 === undefined || name1 === null) ? "CUGGZ" : name1;
 // 简写方式：
@@ -194,6 +195,7 @@ const username = name1 ?? "CUGGZ";
 const username2 = name2 ?? "CUGGZ";
 console.log(username); // CUGGZ
 console.log(username2); // 名字
+console.log(name3 ?? 'name3') // ''
 ```
 
 <span style="color: #42b883;">??</span>用于为 null 或 undefined 的变量提供默认值。

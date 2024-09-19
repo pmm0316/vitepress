@@ -1,1 +1,0 @@
-import{av as s,p as i,m as a,aP as n}from"./chunks/framework.DkMe7-7d.js";const o=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/vue3Feat.md","filePath":"blog/vue3Feat.md"}'),h={name:"blog/vue3Feat.md"},l=n("",31),p=[l];function k(t,e,r,d,g,y){return a(),i("div",null,p)}const D=s(h,[["render",k]]);export{o as __pageData,D as default};
