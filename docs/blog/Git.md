@@ -39,3 +39,15 @@ git reset --soft HEAD^
 ```git
 git reset --hard HEAD^
 ```
+
+## 6. 修改最后一次提交的提交信息
+
+```git
+git commit --amend -m "新的提交信息"
+```
+
+## 7. 强制覆盖远程分支
+
+```git
+git push -f
+```
