@@ -12,6 +12,7 @@ export default {
     // theme-level options
     nav: [
       { text: "博客", link: "/blog/" },
+      { text: "小程序", link: "/applet/" },
       { text: "css技巧", link: "/cssSecrets/" },
       { text: "组件", link: "/components/" },
       // { text: "gitee", link: "https://gitee.com/geeksdidi" },
@@ -55,6 +56,12 @@ export default {
         {
           text: "设计模式",
           link: "/blog/设计模式",
+        },
+      ],
+      "/applet/": [
+        {
+          text: "小程序分包",
+          link: "/applet/小程序分包",
         },
       ],
       "/components/": [
