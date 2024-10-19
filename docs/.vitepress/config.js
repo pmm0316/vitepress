@@ -60,8 +60,8 @@ export default {
       ],
       "/applet/": [
         {
-          text: "小程序分包",
-          link: "/applet/小程序分包",
+          text: "基本",
+          link: "/applet/基本",
         },
       ],
       "/components/": [
